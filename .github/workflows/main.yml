@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://vijayg24:$HF_TOKEN@huggingface.co/spaces/vijayg24/vijay-portfolio main
+        run: git push -f https://Vijayg24:$HF_TOKEN@huggingface.co/spaces/Vijayg24/vijay-portfolio main
